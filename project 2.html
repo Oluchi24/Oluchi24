@@ -4,8 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container {
+         position: relative;
+        }
+
+        .image{
+            width: 1200px;
+            height: 600px;
+        }
+
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+.topleft{
+    position: absolute;
+    bottom: 600px;
+    font-size: 40px;
+    left: 20px;
+    color: white;
+}
+.center{
+    position: absolute;
+    bottom: 350px;
+    left: 460px;
+    color: white;
+    font-size: 40px;
+}
+.bottomright{
+    position: absolute;
+    top: 200px;
+    right: 16px;
+}
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <img src="luchi2.jpg" alt="image" class="image">
+        <div class="topright">top right</div>
+        <div class="topleft">top left</div>
+        <div class="bottomright">bottom right</div>
+        <div class="bottomleft">bottom left</div>
+        <div class="center">center</div>
+    </div>
 </body>
-</html>
+</html
