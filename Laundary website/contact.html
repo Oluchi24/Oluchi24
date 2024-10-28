@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="order-form" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="service">Service:</label>
+      <select id="service" name="service">
+        <option value="washing">Washing</option>
+        <option value="folding">Folding</option>
+        <option value="dry-cleaning">Dry Cleaning</option>
+      </select>
+
+      <label for="quantity">Quantity (kg):</label>
+      <input type="number" id="quantity" name="quantity" required>
+
+      <button type="submit">Place Order</button>
+    </form>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Fresh Laundry Services. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -4,40 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FOODZERO</title>
+    <link rel="stylesheet" href="css/menu.css">
 </head>
 <body>
     <header class="page-header">
         <nav class="navbar">
             <div class="left">
+                FOOD ZERO
                 <img src="logo.svg" alt="FOODZERO logo" class="logo">
                 <img src="hamburger.svg" alt="hambuger menu icon" class="nav menu">
             </div>
     
             <div class="right">
-                <span class="phone">+234 440 2397</span>
-                <button class="btn clear">
+                <span class="phone">+234 704 402 397</span>
+                <a href="#" class="btn clear">
                     Reservations
-                </button>
+                </a>
             </div>
 
-    <nav>
-        <br>
-        <div class="hero container">
-            <h1 class="title">View Our New Menu</h1>
-            <p class="subtitle">The Freshest ingredient for you everyday</p>
-        </div>
+        <nav>
     </header>
+
+<div class="hero-container">
+    <h1 class="title">View Our New Menu</h1>
+    <p class="subtitle">The Freshest ingredient for you everyday</p>
+</div>
 
 <main>
     <!-- Starters -->
     <div class="section-heading-container">
         <h2 class="section-title">Starters</h2>
-        <p class="section-subtitle">
+        <p class="section-subtitle subtitle">
             This is a section of your menu. Give your section a brief description.
         </p>
     </div>
     <div class="menu container">
-        <img src="starters.png" alt="Starters image of tomato slices and mozzarella" class="menu-img">
+        <img src="img/starters.png" alt="Starters image of tomato slices and mozzarella" class="menu-img">
         <div class="menu option">
 
             <div class="menu item">
@@ -67,7 +69,7 @@
 
     <div class="section-heading-container">
         <h2 class="section-title">Mains</h2>
-        <p class="section-subtitle">
+        <p class="section-subtitle subtitle">
             This is a section of your menu. Give your section a brief description.
         </p>
     </div>
@@ -99,18 +101,18 @@
                                 </div>
                            </div>
                      </div>
-        <img src="mains.png" alt="Main courses menu image with a picture of streak ">
+        <img src="img/mains.png" alt="Main courses menu image with a picture of streak ">
     </div>
 
     <div class="section-heading-container">
         <h2 class="section-title">Pastries & Drinks</h2>
-        <p class="section-subtitle">
+        <p class="section-subtitle subtitle">
             This is a section of your menu. Give your section a brief description.
         </p>
     </div>
 
     <div class="menu-container">
-        <img src="pastries.png" alt="Pastries & Drinks image of three glasses of orange iced wine">
+        <img src="img/pastries.png" alt="Pastries & Drinks image of three glasses of orange iced wine">
         <!-- Pasteries & Drinks-->
          <div class="menu-options">
             <div class="menu-item">
@@ -139,25 +141,82 @@
                      </div>
      
     </div>
-    <nav>
-        <br>
-        <div class="hero container">
-            <h1 class="title">Make a Reservation</h1>
-            <p class="subtitle"> Get in touch with restaurant</p>
+
+   <div class="reservation-container">
+    <div class="section-heading-container">
+        <h2 class="section-title">Make a Reservation</h2>
+        <p class="section-subtitle">
+            Get in touch with restaurants
+        </p>
+    </div>
+   </div>
+
+   <div class="scheduling-container">
+    <!-- sceduling inputs -->
+    <input type="text" name="date" id="reservation-day">
+    <input type="text" name="date" id="reservation-time">
+    <select name="people" id="reservation-guest">
+        <option value="1">1 person</option>
+        <option value="2">2 person</option>
+        <option value="3">3 person</option>
+        <option value="4">4 person</option>
+        <option value="5">5 person</option>
+        <option value="6">6 person</option>
+    </select>
+   </div>
+</main>
+<footer>
+    <div class="contact-container">
+        <div class="left">
+            <h3 class="footer-title">
+                Food
+            </h3>
+            <br>
+            Zero.
         </div>
 
-        <table>
-            <tr>
-                <td>16/22/2021</td>
-                <td> 6:00 pm</td>
-                <td> 2 Person</td>
-            </tr>
-        </table>
-        <nav>
-            <br>
-            <h1 class="title">Book Now</h1>
+        <div class="middle">
+            <h4 class="footer-subtitle">
+                Contact
+            </h4>
+            <p>
+                +234 704 440 2397
+                <br>
+                info@foodzero.com
+            </p>
+            <p>
+                1959 Sapulva blvd
+                <br>
+                Culver city, CA 90230
+            </p>
+        </div>
 
+        <div class="right">
+            <h4 class="footer-container">
+                Never miss a recipe.
+            </h4>
+            <div class="newsletter-container">
+                <input type="text" placeholder="Email Address">
+                <button class="btn secondary">Subscribe</button>
+            </div>
 
-</main>
+            <p class="newsletter-info">
+                Subscribe to our newsletter to get the latest news and updates from Food Zero.
+            </p>
+        </div>
+    </div>
+    <div class="copyright-container">
+        <span class="copyrigt-info">
+            @copy; 2033 Zero Inc. All right Reserved
+        </span>
+            <div class="social-container">
+                <img src="instagram.svg" alt="instagram logo">
+                <img src="twitter.svg" alt="twitter logo">
+                <img src="facebook.svg" alt="facebook logo">
+                <img src="youtube.svg" alt="youtube log">
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
