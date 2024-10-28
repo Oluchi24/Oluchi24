@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 90vw;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    /* align-content: space-around; */
+    align-items:stretch ;
+}
+
+.item1{
+    width: 100px;
+    background-color: blue;
+    margin: 5px;
+    align-self: flex-end;
+}
