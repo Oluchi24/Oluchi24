@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .landing {
+    position: relative; 
+    background-image: url("images/img6.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #93acff; 
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px 20px 40px;
+  }
+  
+  .logo {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ddd;
+  }
+  
+  .hero {
+    position: absolute; 
+    left: 20px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    color: #fff; 
+    padding-left: 17px;
+  }
+  
+  .hero-text {
+    font-size: 70px; 
+    margin-bottom: 20px; 
+  }
+  
+  .btn {
+    display: inline-block; 
+    background-color: #fff; 
+    color: #333; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    background-color: #ddd; 
+    color: #000; /
+  }
+
+  
